@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haircare</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background:url('images/bgwebsite.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;"> 
+
+<script src="https://kit.fontawesome.com/3e0d7586f8.js" crossorigin="anonymous"></script>
+
+<hr color="goldenrod">
+<center><h2><U>HAIRCARE PRODUCTS</U></h2></center>
+<hr color="goldenrod"><hr color="goldenrod">
+ <BR>
+
+<div class="search-container">
+  <i class="fa-solid fa-magnifying-glass search-icon" style="color: rgb(133, 102, 14);"></i>
+  <input type="text" id="searchBar" placeholder="Search" onkeyup="filterProducts()">
+</div>
+<div id="productGrid" class="product-grid"></div>
+
+<div class="button-row"> 
+    <a class="btn" href="#HAIRCOLOR">HAIR COLOR</a> 
+    <a class="btn" href="#HAIRTREATMENT">HAIR TREATMENT</a> 
+    <a class="btn" href="#SHAMPOO">SHAMPOO & CONDITIONER</a>
+</div> 
+<br> 
+<hr color="goldenrod"> 
+<section id="HAIRCOLOR">
+<center><u><b><font size="4">HAIR-COLOR</font></b></u></center>
+</section> 
+<br>
+
+<div class="image-container">
+  <div id="merry-sun">
+    <img src="https://drive.google.com/thumbnail?id=1xRdaQBQ8mnKKkrJsoEEf2aHgtPCK4wpQ&sz=s800" style="width: 100%; border: 1px solid #ddd;" alt="Photo 225">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">MERRY SUN PERMANENT HAIR COLOR</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">2.5 OMR</p>
+  </div>
+  <div id="bremod-haircolor">
+    <img src="https://drive.google.com/thumbnail?id=1SL-GCLYWNgTuV3pLjO9TY0BIcltIbx2M&sz=s800" style="width: 100%; border: 1px solid #ddd;" alt="Photo 226">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">BREMOD HAIR COLOR</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">2 OMR</p>
+  </div>
+  <div id="bremod-premiumseries-haircolourant">
+    <img src="https://drive.google.com/thumbnail?id=1zD-dFuKJjkwfSUJrweyrTMFtj2RuYOFj&sz=s800" style="width: 110%; border: 1px solid #ddd;" alt="Photo 227">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">BREMOD PREMIUM SERIES HAIR COLOURANT</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">2 OMR</p>
+  </div>
+  <div id="bremodperformance-premiumseries-oxidantcream">
+    <img src="https://drive.google.com/thumbnail?id=1F4LA1pI9RQodDT8lNt4Fe6khsgZdV4tl&sz=s800" style="width: 95%; border: 1px solid #ddd;" alt="Photo 228">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">BREMOD PERFORMANCE PREMIUM SERIES OXIDANT CREAM</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1.2 OMR</p>
+  </div>
+</div>
+<br>
+
+<div class="image-container">
+  <div id="augeas-herbal-hairdye-shampoo">
+    <img src="https://drive.google.com/thumbnail?id=1zxYQP6OBksZ8FpDRjwenyIvnlBWj792R&sz=s800" style="width: 115%; border: 1px solid #ddd;" alt="Photo 229">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">AUGEAS HERBAL HAIR DYE SHAMPOO</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">5.6 OMR</p>
+  </div>
+</div>
+<br>
+
+<hr color="goldenrod"> 
+<section id="HAIRTREATMENT">
+<center><u><b><font size="4">HAIR-TREATMENT</font></b></u></center>
+</section> 
+<br>
+
+<div class="image-container">
+  <div id="luxeorganix-100%-purecastoroil">
+    <img src="https://drive.google.com/thumbnail?id=1JwF9FqEVeAA36PefQCk-qMBUrFQa1vJZ&sz=s800" style="width: 100%; border: 1px solid #ddd;" alt="Photo 230">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">LUXE ORGANIX 100% PURE CASTER OIL</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">4.5 OMR</p>
+  </div>
+  <div id="bremod-superplex">
+    <img src="https://drive.google.com/thumbnail?id=1FDKx-D7dfATrd4i15Tj-gGzpY2VfO3bb&sz=s800" style="width: 100%; border: 1px solid #ddd;" alt="Photo 231">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">BREMOD SUPER PLEX</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1.1 OMR</p>
+  </div>
+  <div id="creamsilk-treatment">
+    <img src="https://drive.google.com/thumbnail?id=16OG7KnIgVo9IStgVAwitu1LXyhqWnRnJ&sz=s800" style="width: 100%; border: 1px solid #ddd;" alt="Photo 232">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">CREAM SILK TREATMENT</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">7 OMR</p>
+  </div>
+  <div id="kerabond-pinoy-brazilian-botox">
+    <img src="https://drive.google.com/thumbnail?id=1BP5GJVH9qcw_M54WcuiaNc3DHGHx3QlH&sz=s800" style="width: 100%; border: 1px solid #ddd;" alt="Photo 233">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">KERABOND PINOY BRAZILIAN BOTOX</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">5.5 OMR</p>
+  </div>
+</div>
+<br>
+
+<div class="image-container">
+  <div id="luxeorganix-aloevera-soothinggel">
+    <img src="https://drive.google.com/thumbnail?id=1ElNlGF-GcjKV36YDMJ-Q1saSM5bwXfTr&sz=s800" style="width: 100%; border: 1px solid #ddd;" alt="Photo 234">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">LUXE ORGANIX ALOE VERA SOOTHING GEL</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">2.2 OMR</p>
+  </div>
+  <div id="crowningglory-virgin-coconut-oil">
+    <img src="https://drive.google.com/thumbnail?id=1BnIM6__FB4ImuVcgviVwiFVZbvI3M2-d&sz=s800" style="width: 50%; border: 1px solid #ddd;" alt="Photo 235">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">CROWNING GLORY VIRGIN COCONUT OIL</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1 OMR</p>
+  </div>
+  <div id="theordinary-haircare">
+    <img src="https://drive.google.com/thumbnail?id=1SNwyG59hu1pfSiAjFMnel3hdXTPBNEgx&sz=s800" style="width: 55%; border: 1px solid #ddd;" alt="Photo 236">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">THE ORDINARY HAIR CARE</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">9 OMR</p>
+  </div>
+  <div id="strands-minoxidil-6%">
+    <img src="https://drive.google.com/thumbnail?id=1Lju3Pd8T6c3FGBcFrtWLV7YvlbA_kxQx&sz=s800" style="width: 70%; border: 1px solid #ddd;" alt="Photo 237">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">STRANDS MINOXIDIL 6%</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">3.6 OMR</p>
+  </div>
+</div>
+<br>
+
+<div class="image-container">
+  <div id="kerabond-ultra-ironic-straight-deal-series">
+    <img src="https://drive.google.com/thumbnail?id=10ziQsvrK6jv0G8c5j6tJfaMw5V2taEzN&sz=s800" style="width: 105%; border: 1px solid #ddd;" alt="Photo 238">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">KERABOND ULTRA-IONIC STRAIGHT DEAL SERIES</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">3 OMR</p>
+  </div>
+  <div id="kerabond-ultra-ionic-brazilian-maintenance">
+    <img src="https://drive.google.com/thumbnail?id=1GrskVAWiPuYU_DhM-3nmYlnIW7rUhNvq&sz=s800" style="width: 90%; border: 1px solid #ddd;" alt="Photo 239">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">KERABOND ULTRA-IONIC BRAZILIAN MAINTENANCE</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1.8 OMR</p>
+  </div>
+</div>
+<br>
+
+<hr color="goldenrod"> 
+<section id="SHAMPOO">
+<center><u><b><font size="4">SHAMPOO & CONDITIONER</font></b></u></center>
+</section> 
+<br>
+
+<div class="image-container">
+  <div id="creamsilk-triple-keratin-collagen-serum-conditioner">
+    <img src="https://drive.google.com/thumbnail?id=1vHpaL_9mpFl339I7pA71a-dRhV7i0aCI&sz=s800" style="width: 80%; border: 1px solid #ddd;" alt="Photo 240">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">CREAM SILK TRIPLE KERATIN COLLAGEN SERUM CONDITIONER</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1.9 OMR</p>
+  </div>
+  <div id="creamsilk-triple-keratin-rescue-ultimate-straight-conditioner">
+    <img src="https://drive.google.com/thumbnail?id=1iXGEA39qNY41mI0dbwMUAMTHnd25Wxhh&sz=s800" style="width: 80%; border: 1px solid #ddd;" alt="Photo 241">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">CREAM SILK TRIPLE KERATIN RESCUE ULTIMATE STRAIGHT CONDITIONER</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1.9 OMR</p>
+  </div>
+  <div id="creamsilk-pink">
+    <img src="https://drive.google.com/thumbnail?id=1ITEuENRrKyVAobRHGFyd_m0KYreN4ceL&sz=s800" style="width: 80%; border: 1px solid #ddd;" alt="Photo 242">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">CREAM SILK STANDOUT STRAIGHT VITAMIN BOOST CONDITIONER</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1.6 OMR</p>
+  </div>
+  <div id="creamsilk-green">
+    <img src="https://drive.google.com/thumbnail?id=16HOcuF4fbSQkN71LBGFbOOBvvwNqn4bv&sz=s800" style="width: 80%; border: 1px solid #ddd;" alt="Photo 243">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">CREAM SILK HAIR FALL DEFENSE VITAMIN BOOST CONDITIONER</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1.6 OMR</p>
+  </div>
+</div>
+<br>
+
+<div class="image-container">
+  <div id="creamsilk-orange">
+    <img src="https://drive.google.com/thumbnail?id=1FEcZTEAURmodHuWyha9NCWZfKHut9okC&sz=s800" style="width: 95%; border: 1px solid #ddd;" alt="Photo 244">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">CREAM SILK DRY RESCUE CONDITIONER</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1.6 OMR</p>
+  </div>
+  <div id="creamsilk-blue">
+    <img src="https://drive.google.com/thumbnail?id=1IKA7W1HHvg7Yhd1mBRH3BriUveLqYn7L&sz=s800" style="width: 80%; border: 1px solid #ddd;" alt="Photo 245">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">CREAM SILK DAMAGE CONTROL VITAMIN BOOST CONDITIONER</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">1.6 OMR</p>
+  </div>
+  <div id="shawill-sakura-conditioner">
+    <img src="https://drive.google.com/thumbnail?id=1csxdTQZ_w2pLYUnkNq5AjSB35wGQDgjE&sz=s800" style="width: 110%; border: 1px solid #ddd;" alt="Photo 246">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">SHAWILL SAKURA CONDITIONER</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">3.5 OMR</p>
+  </div>
+  <div id="manic-beautycloud-strengthening-conditioner">
+    <img src="https://drive.google.com/thumbnail?id=1xYXrHfrqy6CbWFklsFMcOiJ4vi4AtGTX&sz=s800" style="width: 100%; border: 1px solid #ddd;" alt="Photo 247">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">MANIC BEAUTY CLOUD STRENGTHENING CONDITIONER</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">7 OMR</p>
+  </div>
+</div>
+<br>
+
+<div class="image-container">
+  <div id="bremod-cocoabutter-shampoo">
+    <img src="https://drive.google.com/thumbnail?id=1zRrc3YGsnXzU6ahmtZM6_tw23_rmbN3J&sz=s800" style="width: 80%; border: 1px solid #ddd;" alt="Photo 248">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">BREMOD COCOA BUTTER SHAMPOO</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">3.5 OMR</p>
+  </div>
+  <div id="bellaamoreskin-himalayan-shampoo">
+    <img src="https://drive.google.com/thumbnail?id=1jnVJDToYWhYV6MpWYitRkmsenCCuadw8&sz=s800" style="width: 90%; border: 1px solid #ddd;" alt="Photo 249">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">BELLA AMORE SKIN HIMALAYAN SHAMPOO</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">4.5 OMR</p>
+  </div>
+  <div id="hairgrowth-shampoo-anti-hairloss-conditioner">
+    <img src="https://drive.google.com/thumbnail?id=1XXu89JRM3DwKRB1UcGY5C11aPBALSwh1&sz=s800" style="width: 110%; border: 1px solid #ddd;" alt="Photo 250">
+    <p style="font-size: 12px; margin-top: 5px; font-weight: bold; margin-bottom: 2px;">HAIR GROWTH SHAMPOO ANTI-HAIR LOSS CONDITIONER</p>
+    <p style="font-size: 11px; color: #555; margin: 0;">3 OMR</p>
+  </div>
+</div>
+<br>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
